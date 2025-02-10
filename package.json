@@ -12,13 +12,14 @@
   },
   "license": "ISC",
   "author": "Lada Murchych <lada.murchich@gmail.com>",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
   },
   "dependencies": {
-    "commander": "^13.1.0"
+    "commander": "^13.1.0",
+    "nanoid": "^5.0.9"
   }
 }
